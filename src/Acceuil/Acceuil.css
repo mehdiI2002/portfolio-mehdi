@@ -1,0 +1,37 @@
+.Acceuil{
+    background: linear-gradient(
+        to right, 
+        hsl(98 100% 62%), 
+        hsl(204 100% 59%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      margin : 180px;
+}
+
+.intro{
+   
+    font-size: 40px;
+    color: white;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-family: "Dank Mono", ui-monospace, monospace;
+    
+}
+.Definition{
+    font-size: 30px;
+
+}
+
+  
+ 
+  
+ 
+  
+  
+ 
+  
+  
+  

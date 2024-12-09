@@ -1,0 +1,109 @@
+.A_propos{
+    background: linear-gradient(
+        to right, 
+        hsl(98 100% 62%), 
+        hsl(204 100% 59%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: left;
+      margin : 90px;
+      width: 50%;
+     display: flex;
+      flex-direction: column;
+    ;
+}
+
+.intro{
+    font-size: 20px;
+    color: white;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-family: "Dank Mono", ui-monospace, monospace;
+    margin: 0px;
+    
+}
+.title{
+    font-size: 40px;
+    color: white;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-family: "Dank Mono", ui-monospace, monospace;
+    
+
+}
+.trait{
+  width: 100%; /* Largeur du trait */
+  height: 2px; /* Épaisseur du trait */
+  background-color:#a7aeb3; /* Couleur du trait */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#lien{
+    margin-left: 100px;
+    margin-top: 30px;
+    color :white;
+    position: relative;
+    font-size: 1rem;
+    
+}
+#lien::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  #lien:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  #lien::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(120, 80%, 50%); 
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  #image {
+    width: 450px; /* Largeur définie */
+    height: 450px; /* Hauteur définie */
+    object-fit: cover; /* Ajuste l'image pour couvrir l'espace sans déformer l'aspect */
+}
+
+  .divImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0px;
+    margin-bottom: 300px;
+    position: absolute;
+    top: 50%; /* Centre verticalement */
+    right: 0; /* Colle à la droite de la page */
+    transform: translateY(-50%); /* Ajuste le centrage vertical */
+}
+.divImage img {
+  border: 5px solid white ; /* Bordure de 5px avec une couleur */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce */
+  
+}
+
+
+ 
+  
+  
+ 
+  
+ 
+  
+  
+ 
+  
+  
+  
