@@ -11,10 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-body {
-  background-image: url('/public/abstract-black-lines.avif');
-  background-size: cover; 
-  background-position: center; 
-  height: 100vh; 
-}
 
+#root{
+  background-color: black;
+}
+body{
+  background-color: black;
+}

@@ -12,6 +12,7 @@ import Contact from '../Contact/Contact.js';
                 <Route path="/" element={<Acceuil />} />
                 <Route path="/A_propos" element={<Propos />} />
                 <Route path = "/Contact" element = {<Contact />}/>
+                
             </Routes>
         </Router>
         )
